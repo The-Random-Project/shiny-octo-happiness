@@ -1,0 +1,37 @@
+.header-wrapper{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: fit-content;
+    border: 5px solid black;
+}
+
+.header-wrapper > div{
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+} 
+
+.mc-logo > img{
+    width: 100%;
+}
+
+.contents-links{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 32, 51);
+}
+
+.tutorial-header{
+    text-align: center;
+    border: 10px solid black;
+    margin: 50px;
+    font-size: 2em;
+}

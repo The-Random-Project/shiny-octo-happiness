@@ -1,0 +1,25 @@
+.steps{
+    font-size: 1.5em;
+    padding: 50px;
+}
+.step > .steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.step > .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image > img{
+    width: 75%;
+}
+
+.step > .image{
+    display: flex;
+}
+
