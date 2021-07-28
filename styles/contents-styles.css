@@ -1,0 +1,13 @@
+/*summarizes what the tutorials are about*/
+.summary{
+    font-size: 0.5em;
+}
+
+/*controls the things like "How to get started", "How to get to the Nether", etc.*/
+.tutorial-links{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    
+}
+

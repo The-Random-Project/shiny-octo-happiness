@@ -1,0 +1,43 @@
+/*controls all the stuff on the download minecraft page*/ 
+.steps{
+    font-size: 1em;
+    padding: 50px;
+}
+.step > .steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.step > .image, .step > .special-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image > img{
+    height: 500px;
+}
+
+.special-image > img{
+   height: 300px; 
+}
+
+.step > .image{
+    display: flex;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    
+    display: block;
+    margin: auto;
+    
+}
+
