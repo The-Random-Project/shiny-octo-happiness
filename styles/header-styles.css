@@ -1,0 +1,46 @@
+/*border around header*/
+.header-wrapper{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: fit-content;
+    border: 5px solid black;
+}
+
+.header-wrapper > div{
+    padding: 20px;
+    
+}
+
+/*controls all normal links*/
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+} 
+
+/*minecraft logo*/ 
+.mc-logo > img{
+    width: 100%;
+}
+
+/*css of the links like in the vanilla navigation bar*/
+.contents-links{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 32, 51);
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*idk where this is*/
+.tutorial-header{
+    text-align: center;
+    border: 10px solid black;
+    margin: 50px;
+    font-size: 1.7em;
+}
+

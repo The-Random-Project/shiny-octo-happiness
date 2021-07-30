@@ -1,0 +1,50 @@
+/*controls all the stuff on the download minecraft page*/ 
+.steps{
+    font-size: 1em;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step > .steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.step > .image, .step > .special-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image > img{
+    height: 500px;
+}
+
+.special-image > img{
+    height: 300px; 
+ }
+ .special-image-2{
+    display: flex;
+    flex-direction: column;
+ }
+ .special-image-2 > img{
+     /*stuff*/
+ }
+
+.step > .image{
+    display: flex;
+}
+
+.step {
+    padding: 50px;
+}
+
+.video{
+    
+    display: block;
+    margin: auto;
+    
+}

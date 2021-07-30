@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(197, 197, 197);
+    color:rgb(49, 49, 49);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+a{
+    width: fit-content;
+    text-decoration: none;
+    color:rgb(46, 116, 182);
+}
+
+a:visited{
+    color:rgb(46, 116, 182);
+}
+a:hover{
+    background-color:rgb(151, 193, 233);
+}
+
+.warning{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(226, 15, 15);
+}
+
+.dudutbell {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2em;
+    color: rgb(78, 15, 226)
+    
+}
+
+.chekin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'McLaren', cursive;
+    color:rgb(180, 117, 0);
+}
+
+.flicker{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color:rgb(42, 133, 30);
+}
+
